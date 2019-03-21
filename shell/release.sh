@@ -1,0 +1,1 @@
+git fetch --depth=1 --all && git reset --hard origin/$NODE_BRANCH && git clean -fd && git submodule init && git submodule update ; git submodule foreach --recursive 'git fetch --depth=1 --all && git reset --hard origin/master && git clean -fd && git submodule init && git submodule update' ; npm i && NODE_RUN_SPACE=remote-server npm run release

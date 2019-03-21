@@ -1,0 +1,22 @@
+{
+  "name": "o-site",
+  "version": "0.0.2",
+  "description": "对前端非常友好的Node.js服务器框架。",
+  "dependencies": {
+    "art-template": "^4.12.2",
+    "css-loader": "^1.0.0",
+    "glob": "^7.1.2",
+    "koa": "^2.5.1",
+    "koa-static": "^4.0.3",
+    "memory-fs": "^0.4.1",
+    "mini-css-extract-plugin": "^0.4.1",
+    "webpack": "^4.11.1"
+  },
+  "author": "lcf",
+  "bin": "./bin/o-site.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chfo12121/o-site.git"
+  },
+  "license": "MIT"
+}
